@@ -25,10 +25,8 @@ function createGallery(array) {
     const imageNew = `<li><img class="tetya-Natasha" 
     src="${image.url}" alt="${image.alt}" width="400" height="200"></li>`;
 
-    console.log(imageNew);
     return imageNew;
   });
   imageList.insertAdjacentHTML("afterbegin", newArray);
-  console.log(newArray);
 }
 createGallery(images);

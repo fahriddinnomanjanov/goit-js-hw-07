@@ -1,7 +1,6 @@
 "use strict";
 
 const products = document.querySelector("#ingredients");
-//   console.log(products)
 
 const fragment = document.createDocumentFragment();
 
@@ -21,5 +20,3 @@ ingredients.forEach((ingradient) => {
 });
 
 products.appendChild(fragment);
-
-console.log(ingredients);
